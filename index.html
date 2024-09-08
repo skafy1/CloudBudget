@@ -10,9 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!">Обзор</a></li>
+        <li><a href="#!">Особенности</a></li>
+        <li><a href="#!">Технология</a></li>
+        <li><a href="#!">Контакты</a></li>
+        <li><a href="#!">Войти</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close">Закрыть</a></li>
+    </ul>
+
+
     <header class="header">
         <div class="container">
             <div class="glav_block_bg">
@@ -23,15 +36,22 @@
                     </div>
                     <div class="nav_center">
                         <ul class="menu">
-                            <li class="text_menu"><a href="" class="salka_text_menu">Обзор</a></li>
-                            <li class="text_menu"><a href="" class="salka_text_menu">Особенности</a></li>
-                            <li class="text_menu"><a href="" class="salka_text_menu">Технология</a></li>
-                            <li class="text_menu"><a href="" class="salka_text_menu">Контакты</a></li>
-                            <li class="text_menu"><a href="" class="salka_text_menu">Войти</a></li>
+                            <li class="text_menu"><a href="#obzor" class="salka_text_menu">Обзор</a></li>
+                            <li class="text_menu"><a href="#oso" class="salka_text_menu">Особенности</a></li>
+                            <li class="text_menu"><a href="#tex" class="salka_text_menu">Технология</a></li>
+                            <li class="text_menu"><a href="#con" class="salka_text_menu">Контакты</a></li>
+                            <li class="text_menu"><a href="#vou" class="salka_text_menu">Войти</a></li>
                         </ul>
                     </div>
                     <div class="nav_right">
                         <button class="button_nav_right">Войти</button>
+                        <div class="bururur">
+                            <a href="#" data-target="slide-out" class="burger sidenav-trigger">
+                                <span class="burger_line"></span>
+                                <span class="burger_line"></span>
+                                <span class="burger_line"></span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <h1 class="title_header">CloudBudget</h1>
@@ -42,5 +62,131 @@
             </div>
         </div>
     </header>
+
+
+    <section class="vidio">
+        <div class="container">
+            <h2 class="none_h2_vidio" id="obzor">Простое приложение для<br> управления бюджетом</h2>
+            <div class="video_flex">
+                <div class="left_vidio">
+                    <h2 class="title_left_vidio">Простое приложение для<br> управления бюджетом</h2>
+                    <img src="img/Video Section.png" alt="" class="none_img_right_vidio">
+                    <p class="text_left_vidio">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
+                    <p class="text_last_left_vidio">Узнать подробнее</p>
+                </div>
+                <div class="right_vidio">
+                    <img src="img/Video Section.png" alt="" class="img_right_vidio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="over">
+        <div class="container">
+            <h2 class="title_over">Возможности</h2>
+            <div class="over_flex">
+                <div class="over_item1">
+                    <div class="content_over_item">
+                        <h3 class="title_over_item">Поддерживает все<br> валюты и карты</h3>
+                        <p class="text_over_item">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+                        <p class="text_last_over_item">Подробнее</p>
+                    </div>
+                </div>
+                <div class="over_item2">
+                    <div class="content_over_item">
+                        <h3 class="title_over_item">Управляйте своими<br> расходами на ходу</h3>
+                        <p class="text_over_item">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                        <p class="text_last_over_item">Подробнее</p>
+                    </div>
+                </div>
+                <div class="over_item3">
+                    <div class="content_over_item">
+                        <h3 class="title_over_item">Управление бюджетом<br> осуществляется в облаке</h3>
+                        <p class="text_over_item">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом. </p>
+                        <p class="text_last_over_item">Подробнее</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feat">
+        <div class="container">
+            <h2 class="title_feat">Технологии</h2>
+            <div class="feat_grid">
+                <div class="feat_item1">
+                    <div class="content_feat_item">
+                        <img src="img/Frame1.png" alt="" class="img_feat_item">
+                        <h3 class="title_feat_item">Облачное хранение</h3>
+                        <p class="text_feat_item">Доступ из любой точки мира с<br> любого устройства</p>
+                    </div>
+                </div>
+                <div class="feat_item2">
+                    <div class="content_feat_item">
+                        <img src="img/Frame2.png" alt="" class="img_feat_item2">
+                        <h3 class="title_feat_item">Безопастность</h3>
+                        <p class="text_feat_item">Вся  информация хранится на<br> защищенных облачных серверах</p>
+                    </div>
+                </div>
+                <div class="feat_item3">
+                    <div class="content_feat_item">
+                        <img src="img/Frame3.png" alt="" class="img_feat_item3">
+                        <h3 class="title_feat_item">PDF Отчеты</h3>
+                        <p class="text_feat_item">Скачивайте ваши отчеты в<br> удобном формате PDF</p>
+                    </div>
+                </div>
+                <div class="feat_item4">
+                    <div class="content_feat_item">
+                        <img src="img/Frame4.png" alt="" class="img_feat_item4">
+                        <h3 class="title_feat_item">CSV  Отчеты</h3>
+                        <p class="text_feat_item">Скачивайте ваши отчеты в<br> удобном формате CSV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="app">
+        <div class="container_app">
+            <h2 class="none_title_app">Сосредоточьтесь на<br> экономии денег</h2>
+            <div class="app_flex">
+                <div class="app_left">
+                    <img src="img/Slider.png" alt="" class="none_img_app_right">
+                    <h3 class="title_app_left">Сосредоточьтесь на<br> экономии денег</h3>
+                    <p class="text_up_left">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы<br> вы могли легко определить и сократить ненужные расходы.<br> Просто присоединяйтесь сегодня, чтобы начать!</p>
+                    <img src="img/App Download Link.png" alt="" class="img_icon_app">
+                </div>
+                <div class="app_tight">
+                    <img src="img/Slider.png" alt="" class="img_app_right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact_flex">
+                <div class="contact_left">
+                    <h2 class="title_contact_left">Напишите нам</h2>
+                    <p class="text_contact_left">Остались вопросы или опасения? Просто заполните форму ниже,<br> и наша служба поддержки свяжется с вами в течение 24 часов.</p>
+                </div>
+                <div class="contact_right">
+                    <input type="email" placeholder="Имя" class="inp_name">
+                    <input type="email" placeholder="Телефон" class="inp_tel">
+                    <button class="button_contact_right">Отправить</button>
+                </div>
+            </div>
+            <h1 class="title_last_con">Адрес</h1>
+            <p class="text_last_con">Pipang Ltd, Griva Digeni,<br>
+                81-83 Jacovides Tower, 1st Floor<br>
+                1090 Picosia USA</p>
+            <p class="text_last_last">Copyright 2021 CloudBudget</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
